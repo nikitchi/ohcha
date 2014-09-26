@@ -21,6 +21,10 @@ public class User implements IUser {
 	public User()
 	{
 		
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8488bc9a8a1b5862ba91374a92017d352ba9fdd0
 	}
 	
 	@Override
@@ -69,7 +73,10 @@ public class User implements IUser {
 	@Override
 	public void addItemToShoppingCart(ProductItem o) {
 		this.shoppingCart.add(o);
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 8488bc9a8a1b5862ba91374a92017d352ba9fdd0
 	}
 
 	@Override
@@ -77,5 +84,8 @@ public class User implements IUser {
 		this.shoppingCart.remove(o);
 	}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8488bc9a8a1b5862ba91374a92017d352ba9fdd0
 }
