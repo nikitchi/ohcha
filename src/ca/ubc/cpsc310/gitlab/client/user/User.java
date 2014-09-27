@@ -16,6 +16,7 @@ public class User implements IUser {
 	
 	private String name;
 	private String language;
+	private int lastUpdated;
 
 	
 	public User()
@@ -32,6 +33,11 @@ public class User implements IUser {
 	@Override
 	public String getName() {
 		return name;
+	}
+	
+	@Override
+	public int getLastUpdated() {
+		return lastUpdated;
 	}
 
 	@Override
