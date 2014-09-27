@@ -103,7 +103,7 @@ public class GitLab implements EntryPoint {
 			
 			flexTable.setText(i+1,4,user.getPaymentMethod());
 
-			flexTable.setText(i+1,5, Integer.toString(user.getLastUpdated()));
+			flexTable.setText(i+1,5, Integer.toString(user.getLastUpdated()) + " hours ago");
 		}
 
 
