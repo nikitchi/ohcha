@@ -1,7 +1,6 @@
 package ca.ubc.cpsc310.gitlab.client.user;
 
 import java.util.ArrayList;
-
 import java.util.List;
 
 import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
@@ -16,15 +15,12 @@ public class User implements IUser {
 	
 	private String name;
 	private String language;
+	private String paymentMethod;
 
 	
 	public User()
 	{
-		
-<<<<<<< HEAD
-=======
 
->>>>>>> 8488bc9a8a1b5862ba91374a92017d352ba9fdd0
 	}
 	
 	@Override
@@ -37,6 +33,11 @@ public class User implements IUser {
 		return name;
 	}
 
+	@Override
+	public String getPaymentMethod() {
+		return paymentMethod;
+	}
+	
 	@Override
 	public List<ProductItem> getWishList() {
 		return wishList;
@@ -73,19 +74,10 @@ public class User implements IUser {
 	@Override
 	public void addItemToShoppingCart(ProductItem o) {
 		this.shoppingCart.add(o);
-<<<<<<< HEAD
-		
-=======
->>>>>>> 8488bc9a8a1b5862ba91374a92017d352ba9fdd0
 	}
 
 	@Override
 	public void removeItemFromShoppingCart(ProductItem o) {
 		this.shoppingCart.remove(o);
 	}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 8488bc9a8a1b5862ba91374a92017d352ba9fdd0
 }

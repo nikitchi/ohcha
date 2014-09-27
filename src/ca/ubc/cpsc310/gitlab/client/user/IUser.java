@@ -11,6 +11,8 @@ public interface IUser extends Serializable {
 	
 	public String getName();
 	
+	public String getPaymentMethod();
+	
 	public List<ProductItem> getWishList();
 	
 	public List<ProductItem> getShoppingCart();
