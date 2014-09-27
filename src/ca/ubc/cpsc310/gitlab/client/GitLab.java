@@ -85,7 +85,7 @@ public class GitLab implements EntryPoint {
 
 			flexTable.setText(i+1,3,String.valueOf(user.getWishList().size()));
 			
-			flexTable.setText(i+1, 4, String.valueOf(user.getLastUpdated()));
+			flexTable.setText(i+1, 4, Integer.toString(user.getLastUpdated()));
 		}
 	}
 
